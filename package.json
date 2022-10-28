@@ -1,0 +1,24 @@
+{
+  "name": "json-to-elm-gen",
+  "version": "1.0.0",
+  "description": "A package that decodes JSON into Elm values and provides helpers for generating encoders and decoders with elm-codgen",
+  "main": "index.js",
+  "scripts": {
+    "docs:generate": "elm make --docs=docs.json",
+    "docs:preview": "npx elm-doc-preview",
+    "test": "npx elm-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeybright/json-to-elm-gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeybright/json-to-elm-gen/issues"
+  },
+  "homepage": "https://github.com/joeybright/json-to-elm-gen#readme",
+  "dependencies": {
+    "elm-doc-preview": "^5.0.5"
+  }
+}
